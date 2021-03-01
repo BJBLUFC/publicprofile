@@ -1,0 +1,55 @@
+body {
+    background-image: url(cool-background.png);
+  
+}
+
+h1 {
+    text-align: center;
+    color: lightgreen;
+    background-color: black;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.main-image {
+    align-content:;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    ;
+}
+
+img {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  }
+  
+  /* Disable grayscale on hover */
+  img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+
+  
+
+#about-me {
+    font-family: 'DotGothic16', sans-serif;
+    color: lightgreen;
+    border: lightgreen;
+    border-style: dashed;
+    float: left;
+    width: 25%;
+    position: relative; visibility: visible; left: 700px; bottom: 650px; z-index: 100; 
+}
+.profile {
+    padding-bottom: 500px;
+}
+
+.dropdown {
+     position: absolute; visibility: visible; left: 700px; top: 300px; z-index: 200;
+     font-family: 'DotGothic16', sans-serif;
+     background-color: black;
+     color: lightgreen;
+ }
+     
+}
